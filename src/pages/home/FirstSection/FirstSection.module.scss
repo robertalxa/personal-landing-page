@@ -1,0 +1,51 @@
+@use "../../../../public/variables.css";
+
+.welcome_section {
+  //   background-color: blue;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: calc(100vh - 144px);
+  padding: 0 5vw;
+
+  &__picture {
+    // background-color: orange;
+    min-width: 300px;
+    width: 40%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__texts {
+    // background-color: pink;
+    color: var(--white);
+    padding: 2rem;
+    width: 60%;
+
+    &__title {
+      color: var(--black);
+      font-size: 5rem;
+      font-weight: var(--bold-font);
+      text-transform: uppercase;
+
+      span {
+        color: var(--red);
+      }
+    }
+
+    &__description {
+      font-weight: 200;
+      line-height: 2rem;
+      padding: 2rem 0;
+    }
+
+    &__buttons {
+      button {
+        margin-right: 2rem;
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 @use "../../../public/variables.css";
 
 .button {
+  border: 1px solid var(--black);
   background-color: var(--red);
   border-radius: 20px;
   color: var(--black);
@@ -8,4 +9,10 @@
   font-weight: var(--bold-font);
   padding: 1rem 1.5rem;
   text-transform: uppercase;
+
+  &___negative {
+    border: 1px solid var(--red);
+    color: var(--white);
+    background-color: var(--black);
+  }
 }

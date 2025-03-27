@@ -1,6 +1,7 @@
 import classNames from "classnames";
 import Styles from "./HomePage.module.scss";
 import Header from "../../components/Header";
+import FirstSection from "./FirstSection";
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       })}
     >
       <Header />
+      <FirstSection />
     </main>
   );
 }
