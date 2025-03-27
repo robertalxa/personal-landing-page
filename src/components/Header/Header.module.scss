@@ -1,0 +1,23 @@
+@use "../../../public/variables.css";
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+
+  &__title {
+    color: var(--red);
+    font-size: 1.2rem;
+    font-weight: var(--bold-font);
+    text-transform: uppercase;
+  }
+
+  &__options {
+    display: flex;
+
+    &__option {
+      margin: 0 0.5rem;
+    }
+  }
+}

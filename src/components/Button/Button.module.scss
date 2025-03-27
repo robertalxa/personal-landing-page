@@ -1,0 +1,11 @@
+@use "../../../public/variables.css";
+
+.button {
+  background-color: var(--red);
+  border-radius: 20px;
+  color: var(--black);
+  cursor: pointer;
+  font-weight: var(--bold-font);
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+}
